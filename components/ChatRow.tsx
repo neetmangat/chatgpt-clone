@@ -25,7 +25,6 @@ function ChatRow({ id }: Props) {
 
   useEffect(() => {
     if (!pathname) return;
-
     setActive(pathname.includes(id));
   }, [pathname]);
 
