@@ -17,7 +17,6 @@ function ChatInput({ chatId }: Props) {
 
   // useSWR to fetch models
   const model = "text-davinci-003";
-  // const model = "gpt-3.5-turbo";
 
   const sendMessage = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
