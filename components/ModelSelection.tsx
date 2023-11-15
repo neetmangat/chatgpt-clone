@@ -2,7 +2,7 @@
 import useSWR from "swr";
 import Select from "react-select";
 
-function fetchModels() {
+async function fetchModels() {
   return fetch("/api/getEngines").then((r) => r.json());
 }
 

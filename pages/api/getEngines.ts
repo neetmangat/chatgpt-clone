@@ -22,7 +22,5 @@ export default async function handler(
     label: model.id,
   }));
 
-  console.log(modelOptions);
-
   res.status(200).json({ modelOptions });
 }
